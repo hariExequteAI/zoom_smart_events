@@ -12,7 +12,7 @@ export default function App() {
 
   // The origin URL. In a real app, this should match window.location.origin
   // We use the one you provided, but you can switch to dynamic origin for local testing
-  const zoomSrc = "https://zoom.us/cci/callbar/crm/?origin=https://app.konnectinsights.com";
+  const zoomSrc = "https://zoom.us/cci/callbar/crm/?origin=https://zoom-smart-events-xef8.vercel.app";
 
   useEffect(() => {
     // Handler for receiving messages from the iframe
