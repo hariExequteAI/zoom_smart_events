@@ -89,9 +89,6 @@ export default function App() {
       {/* Header */}
       <header className="bg-white shadow-sm border-b px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-blue-600 rounded-lg text-white">
-            <Phone size={20} />
-          </div>
           <h1 className="text-xl font-bold text-gray-800">CRM Integration <span className="text-gray-400 font-normal">| Zoom Smart Embed</span></h1>
         </div>
         
@@ -110,8 +107,7 @@ export default function App() {
         <div className="flex-1 flex flex-col p-6 overflow-hidden">
           <div className="bg-white rounded-xl shadow-lg border border-gray-200 flex flex-col h-full overflow-hidden">
             <div className="p-4 border-b bg-gray-50 flex justify-between items-center">
-              <h2 className="font-semibold text-gray-700">Softphone Embed</h2>
-              <span className="text-xs text-gray-400 px-2 py-1 bg-gray-200 rounded">v3</span>
+              <h2 className="font-semibold text-gray-700">Smart Embed</h2>
             </div>
             
             <div className="flex-1 bg-gray-100 relative">
@@ -155,7 +151,7 @@ export default function App() {
 
           <div className="p-3 bg-blue-50 border-b border-blue-100 text-xs text-blue-800 flex items-start gap-2">
             <Info size={14} className="mt-0.5 shrink-0" />
-            <p>Listening for: zcc-call-ringing, zcc-connected, zcc-screen-pop, and others.</p>
+            <p>Listening events</p>
           </div>
 
           <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50/50">
